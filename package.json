@@ -1,0 +1,21 @@
+{
+  "name": "telegram-openai-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/conversations": "^1.1.0",
+    "@grammyjs/menu": "^1.1.2",
+    "dotenv": "^16.0.3",
+    "grammy": "^1.12.1",
+    "openai": "^3.1.0"
+  }
+}
